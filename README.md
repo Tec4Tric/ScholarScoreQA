@@ -52,3 +52,8 @@ Long scholarly documents present challenges for QA:
 
 📘 **Repo Structure (Auto-updated)**  
 See **REPO_TREE.txt** in the root directory.
+
+
+<p align="center">
+  <img src="assets/logo.png" width="600" alt="ScholarScoreQA Logo">
+</p>
