@@ -37,6 +37,8 @@
 │       │   ├── index.css
 │       │   └── main.jsx
 │       └── vite.config.js
+├── assets
+│   └── herosection.png
 ├── plots
 │   ├── HumanEvalResp.png
 │   ├── KSpanDiagram.png
@@ -172,4 +174,4 @@
         ├── tone_transformer.py
         └── tones.txt
 
-28 directories, 145 files
+29 directories, 146 files
