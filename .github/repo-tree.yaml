@@ -1,0 +1,23 @@
+name: Generate Repository Tree
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Generate Tree
+      run: |
+        sudo apt-get install tree
+        tree -I "venv|__pycache__|*.egg-info" -L 4 > REPO_TREE.txt
+
+    - name: Commit Tree File
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update repo tree"
+        file_pattern: REPO_TREE.txt

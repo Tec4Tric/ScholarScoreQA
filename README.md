@@ -1,10 +1,54 @@
-# ScholarScoreQA
-K-Span ScholarQA Official implementation of the paper *“K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering”* (IEEE JCDL 2025).
+# 📘 ScholarScoreQA: Reliable Scholarly Question Answering
 
-This repository implements K-Span Select for span-level retrieval and ScholarScore for reliable, style-aware scholarly question answering.
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM-QA-blue" />
+  <img src="https://img.shields.io/badge/Retrieval-K--Span-green" />
+  <img src="https://img.shields.io/badge/License-MIT-orange" />
+  <img src="https://img.shields.io/badge/Status-Research%20Prototype-purple" />
 
-Scholarly question answering (QA) over long docu- ments is challenging because relevant evidence is scattered, and language models struggle with irrelevant context. We present a retrieval-augmented framework that integrates span-level re- trieval, prompting strategies, and multi-dimensional evaluation to improve reliability in scholarly QA. 
+  <img src="https://img.shields.io/github/last-commit/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/contributors/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/forks/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/stars/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/issues/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/issues-pr/cosmiiccat/ScholarScoreQA" />
 
-Our method introduces K-Span Select, which condenses documents into query-relevant spans while preserving over 87% of gold evidence and reducing context size by 91%. Candidate answers are then generated using diverse prompting strategies, including zero-shot, few-shot, chain- of-thought, and meta prompting. To filter and adapt responses, we design two modules: the Language Judge, which scores answers on correctness, groundedness, fluency, and format, and the Tone Judge, which tailors answers to academic, technical, or layman styles. 
+  <img src="https://img.shields.io/github/languages/top/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/languages/count/cosmiiccat/ScholarScoreQA" />
+  <img src="https://img.shields.io/github/repo-size/cosmiiccat/ScholarScoreQA" />
+</p>
 
-The final answer is selected using ScholarScore, a composite of language and tone quality. Experiments on QASPER and QASA show that our system consistently outperforms com- petitive methods, with ROUGE-1 improving from 0.26 to 0.30 and Span-F1 by +3.4 points. These results highlight the effectiveness of compact retrieval and multi-dimensional judging in digital library QA.
+
+A **retrieval-augmented scholarly question-answering system** designed for long research articles. ScholarScoreQA integrates:
+
+* **K-Span Select** — a span-level retrieval mechanism that filters only the most relevant evidence.
+* **Multi-dimensional evaluation** using a **Language Judge**, **Tone Judge**, and a unified metric called **ScholarScore**.
+* **Multiple prompting strategies** (Zero-shot, CoT, Few-shot, Meta-prompting) to generate diverse answer candidates.
+
+This repository accompanies the paper:
+
+> **K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering**
+> *Preetam Pati, Sayan De, Saurabh Tiwari, Imon Mukherjee, Debarshi Kumar Sanyal*
+> *IIIT Kalyani & IACS Kolkata*
+
+---
+
+## 🚀 Overview
+
+Long scholarly documents present challenges for QA:
+
+* Evidence is often **scattered** across sections.
+* Retrieval systems can fetch **irrelevant text**, confusing LLMs.
+* LLM-generated answers may be **fluent but hallucinated**.
+
+**ScholarScoreQA** addresses this through:
+
+1. **Span-level Context Engineering** via K-Span Select.
+2. **Diverse LLM prompting** to generate candidate answers.
+3. **Two independent judge modules** to ensure factual and stylistic reliability.
+4. **ScholarScore**, a harmonic metric to pick the best final answer.
+
+---
+
+📘 **Repo Structure (Auto-updated)**  
+See **REPO_TREE.txt** in the root directory.
