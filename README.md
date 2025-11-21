@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/hero2.png" style="width: 100%; max-width: 1000px;" />
+  <img src="assets/hero3.png" style="width: 100%; max-width: 1000px;" />
 </p>
 
 # ScholarScoreQA 
