@@ -3,9 +3,8 @@
   <img src="assets/hero2.png" style="width: 100%; max-width: 1000px;" />
 </p>
 
-**ScholarScoreQA**
-
-_Reliable Scholarly Question Answering_
+# ScholarScoreQA 
+## Reliable Scholarly Question Answering
 
 <p align="center">
   <img src="https://img.shields.io/badge/LLM-QA-blue" />
