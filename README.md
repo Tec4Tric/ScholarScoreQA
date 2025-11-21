@@ -57,3 +57,28 @@ Long scholarly documents present challenges for QA:
 
 📘 **Repo Structure (Auto-updated)**  
 See **REPO_TREE.txt** in the root directory.
+
+
+## 📖 Citation
+
+If you use ScholarScoreQA or reference our work, please cite:
+
+```bibtex
+Preetam Pati, Sayan De, Saurabh Tiwari, Imon Mukherjee, and Debarshi Kumar Sanyal.
+"K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering."
+In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2025.
+```
+
+---
+
+## 👨‍💻 Development Team
+
+| Name                   | Affiliation(s)                                                                 | Email                              | GitHub                        |
+|------------------------|--------------------------------------------------------------------------------|------------------------------------|-------------------------------|
+| **Preetam Pati**       | Indian Institute of Information Technology Kalyani, India                      | preetam6teen@gmail.com             | [cosmiiccat](https://github.com/cosmiiccat) |
+| **Sayan De**           | Indian Institute of Information Technology Kalyani, India<br>Dr. B. C. Roy Engineering College, Durgapur, India | sayan_jrf22@iiitkalyani.ac.in      | [tec4tric](https://github.com/tec4tric) |
+| **Saurabh Tiwari**     | Indian Institute of Information Technology Kalyani, India                      | smplrsaurabh30@gmail.com           | [admin1-saurabh](https://github.com/admin1-saurabh) |
+| **Imon Mukherjee**     | Indian Institute of Information Technology Kalyani, India                      | imon@iiitkalyani.ac.in             | [imon](https://github.com/imon) |
+| **Debarshi Kumar Sanyal** | Indian Association for the Cultivation of Science (IACS), Jadavpur, India   | debarshi.sanyal@iacs.res.in        | [dksanyal](https://github.com/dksanyal) |
+
+
