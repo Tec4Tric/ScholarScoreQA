@@ -34,7 +34,7 @@ A **retrieval-augmented scholarly question-answering system** designed for long 
 This repository accompanies the paper:
 
 > **K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering**
-> *Preetam Pati, Sayan De, Saurabh Tiwari, Imon Mukherjee, Debarshi Kumar Sanyal*
+> *Preetam Pati, Sayan De, Saurabh Tiwari, Dr. Imon Mukherjee, Dr. Debarshi Kumar Sanyal*
 > *IIIT Kalyani & IACS Kolkata*
 
 ---
