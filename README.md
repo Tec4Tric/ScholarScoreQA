@@ -71,6 +71,22 @@ In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), 202
 
 ---
 
+## 📄 API Reference (Auto-Generated)
+
+API documentation is generated automatically using **pdoc** and pushed to the `docs/` folder.
+
+Browse the latest API docs:  
+👉 **[docs/](./docs/)**  
+
+```md
+## 📘 Documentation (Auto-Built)
+
+This project uses **MkDocs + Material Theme** for documentation.  
+Docs are automatically built and deployed to GitHub Pages on every push to `main`.
+
+🔗 **Live Docs:** *https://cosmiiccat.github.io/ScholarScoreQA/*  
+📦 **Build System:** GitHub Actions (`Build Docs` workflow)
+
 ## 👨‍💻 Development Team
 
 | Name                   | Affiliation(s)                                                                 | Email                              | GitHub                        |
