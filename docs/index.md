@@ -1,28 +1,7 @@
-
-<p align="center">
-  <img src="assets/hero3.png" style="width: 100%; max-width: 1000px;" />
-</p>
+# Welcome to ScholarScoreQA Docs
 
 # ScholarScoreQA 
 ## Reliable Scholarly Question Answering
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LLM-QA-blue" />
-  <img src="https://img.shields.io/badge/Retrieval-K--Span-green" />
-  <img src="https://img.shields.io/badge/License-MIT-orange" />
-  <img src="https://img.shields.io/badge/Status-Research%20Prototype-purple" />
-
-  <img src="https://img.shields.io/github/last-commit/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/contributors/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/forks/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/stars/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/issues/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/issues-pr/cosmiiccat/ScholarScoreQA" />
-
-  <img src="https://img.shields.io/github/languages/top/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/languages/count/cosmiiccat/ScholarScoreQA" />
-  <img src="https://img.shields.io/github/repo-size/cosmiiccat/ScholarScoreQA" />
-</p>
 
 
 A **retrieval-augmented scholarly question-answering system** designed for long research articles. ScholarScoreQA integrates:
@@ -56,38 +35,6 @@ Long scholarly documents present challenges for QA:
 
 ---
 
-📘 **Repo Structure (Auto-updated):** [View REPO_TREE.txt](./REPO_TREE.txt)
-
-
-## 📖 Citation
-
-If you use ScholarScoreQA or reference our work, please cite:
-
-```bibtex
-Preetam Pati, Sayan De, Saurabh Tiwari, Imon Mukherjee, and Debarshi Kumar Sanyal.
-"K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering."
-In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2025.
-```
-
----
-
-## 📄 API Reference (Auto-Generated via Github Actions)
-
-API documentation is generated automatically using **pdoc** and pushed to the `docs/` folder.
-
-Browse the latest API docs:  
-👉 **[docs/](./docs/)**  
-
-## 📘 Documentation (Auto-Built via Github Actions)
-
-This project uses **MkDocs + Material Theme** for documentation.  
-Docs are automatically built and deployed to GitHub Pages on every push to `main`.
-
-🔗 **Live Docs:** *https://cosmiiccat.github.io/ScholarScoreQA/*  
-📦 **Build System:** GitHub Actions (`Build Docs` workflow)
-
----
-
 ## 👨‍💻 Development Team
 
 | Name                   | Affiliation(s)                                                                 | Email                              | GitHub                        |
@@ -111,4 +58,3 @@ This work is partially supported by the ANRF grant CRG/2021/000803 for the proje
 If you encounter any issues, have suggestions, or want to contribute, please [open an issue](https://github.com/cosmiiccat/ScholarScoreQA/issues) or reach out to the development team directly. We welcome feedback and collaboration!
 
 ---
-
