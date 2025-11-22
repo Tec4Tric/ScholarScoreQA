@@ -2,7 +2,7 @@ name: Generate API Docs
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
   docs:

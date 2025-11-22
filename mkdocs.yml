@@ -1,0 +1,6 @@
+site_name: ScholarScoreQA Docs
+nav:
+  - Home: index.md
+
+theme:
+  name: material
