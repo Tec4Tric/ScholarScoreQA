@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/hero2.png" style="width: 100%; max-width: 1000px;" />
+  <img src="assets/hero3.png" style="width: 100%; max-width: 1000px;" />
 </p>
 
 # ScholarScoreQA 
@@ -34,7 +34,7 @@ A **retrieval-augmented scholarly question-answering system** designed for long 
 This repository accompanies the paper:
 
 > **K-Span Select and Multi-Dimensional Judging for Reliable Scholarly Question Answering**
-> *Preetam Pati, Sayan De, Saurabh Tiwari, Imon Mukherjee, Debarshi Kumar Sanyal*
+> *Preetam Pati, Sayan De, Saurabh Tiwari, Dr. Imon Mukherjee, Dr. Debarshi Kumar Sanyal*
 > *IIIT Kalyani & IACS Kolkata*
 
 ---
@@ -94,7 +94,7 @@ Docs are automatically built and deployed to GitHub Pages on every push to `main
 | **Preetam Pati**       | Indian Institute of Information Technology Kalyani, India                      | preetam6teen@gmail.com             | [cosmiiccat](https://github.com/cosmiiccat) |
 | **Sayan De**           | Indian Institute of Information Technology Kalyani, India<br>Dr. B. C. Roy Engineering College, Durgapur, India | sayan_jrf22@iiitkalyani.ac.in      | [tec4tric](https://github.com/tec4tric) |
 | **Saurabh Tiwari**     | Indian Institute of Information Technology Kalyani, India                      | smplrsaurabh30@gmail.com           | [admin1-saurabh](https://github.com/admin1-saurabh) |
-| **Imon Mukherjee**     | Indian Institute of Information Technology Kalyani, India                      | imon@iiitkalyani.ac.in             | [imon](https://github.com/imon) |
+| **Imon Mukherjee**     | Indian Institute of Information Technology Kalyani, India                      | imon@iiitkalyani.ac.in             | [imoniiitkalyani](https://github.com/imoniiitkalyani) |
 | **Debarshi Kumar Sanyal** | Indian Association for the Cultivation of Science (IACS), Jadavpur, India   | debarshi.sanyal@iacs.res.in        | [dksanyal](https://github.com/dksanyal) |
 
 
